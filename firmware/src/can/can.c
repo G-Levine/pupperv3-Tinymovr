@@ -38,7 +38,7 @@ void CAN_init(void)
 {
     CANEP_InitEndpointMap();
 
-#if defined(BOARD_REV_R5)
+#if defined(BOARD_REV_R5) || defined(BOARD_PUPPER_REV_R1)
     // Configure PD7 as GPIO output
     PAC55XX_GPIOD->MODE.P7 = IO_PUSH_PULL_OUTPUT;   // GPIO configured as an output
     PAC55XX_SCC->PDMUXSEL.w &= 0xFFFFFF0F;          // Clear bits to select GPIO function

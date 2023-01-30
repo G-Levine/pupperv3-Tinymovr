@@ -17,6 +17,8 @@
 
 #pragma once
 
+#define BOARD_PUPPER_REV_R1 1
+
 // Firmware Version
 #define VERSION_MAJOR (0u)
 #define VERSION_MINOR (8u)

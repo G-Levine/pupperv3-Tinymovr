@@ -61,6 +61,11 @@ typedef enum {
 #elif defined BOARD_REV_R32
 #define SHUNT_SCALING_FACTOR ( 0.0503f )
 
+// Pupper board rev1 has 5mOhm shunts
+// 1/2^12 * 3,3 / 0,005 / 16 ~= 0.01006
+#elif defined BOARD_PUPPER_REV_R1
+#define SHUNT_SCALING_FACTOR ( 0.01006f )
+
 #endif
 
 // Inverse of sensing multiplier
