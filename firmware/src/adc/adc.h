@@ -63,7 +63,7 @@ typedef enum {
 
 // Pupper board rev1 has 5mOhm shunts
 // 1/2^12 * 3,3 / 0,005 / 16 ~= 0.01006
-#elif defined BOARD_PUPPER_REV_R1
+#elif defined BOARD_REV_PUPPER_R1
 #define SHUNT_SCALING_FACTOR ( 0.01006f )
 
 #endif

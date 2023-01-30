@@ -88,7 +88,7 @@
 #define CAN_PE23
 #elif defined BOARD_REV_R5
 #define CAN_PF67
-#elif defined BOARD_PUPPER_REV_R1
+#elif defined BOARD_REV_PUPPER_R1
 #define CAN_PF67
 #else
 #error "Board revision incorrect or not defined"
