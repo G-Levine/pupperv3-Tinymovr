@@ -25,7 +25,7 @@
 
 #if defined(BOARD_REV_R3)
 #define CAN_BUS_PINS CAN_PE23
-#elif defined(BOARD_REV_R5)
+#elif defined(BOARD_REV_R5) || defined(BOARD_PUPPER_REV_R1)
 #define CAN_BUS_PINS CAN_PF67
 #endif
 
